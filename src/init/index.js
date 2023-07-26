@@ -1,6 +1,6 @@
-if (!window.ll) {
-  window.ll = console.log;
-}
+import './init.global.log';
+import './init.global.react';
+import './init.global.classnames';
+import './init.global.compare';
 
 import './init.axios';
-import './init.global.react';
