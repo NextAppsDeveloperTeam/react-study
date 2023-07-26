@@ -32,7 +32,10 @@ const options = {
     },
   },
   plugins: [
-    new ESLintPlugin(),
+    new ESLintPlugin({
+      extensions: ['js', 'jsx'],
+      exclude: [path.resolve(__dirname, 'node_modules'), path.resolve(__dirname, 'public')],
+    }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
