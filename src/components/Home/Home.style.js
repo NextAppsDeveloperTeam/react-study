@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledContainer = styled.div`
+export const StyledHomeContainer = styled.div`
   .title {
     font-weight: bold;
   }
