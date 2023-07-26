@@ -1,10 +1,8 @@
-import { StyledHomeContainer } from './Home.style';
-
 const Home = () => {
   return (
-    <StyledHomeContainer>
-      <div className='title'>Home</div>
-    </StyledHomeContainer>
+    <div>
+      <h1>Home</h1>
+    </div>
   );
 };
 
