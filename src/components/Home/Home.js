@@ -1,15 +1,14 @@
-import { StyledContainer } from './Home.style';
-import {TestIncDec} from "../Test";
+import './Home.scss';
+import { TestIncDec } from '../Test';
 
 const Home = () => {
   return (
-    <StyledContainer>
-      <div className='title'>Home</div>
-      <br/>
+    <div className='Home'>
+      <h1>Home</h1>
       <div className='test-block'>
         <TestIncDec />
       </div>
-    </StyledContainer>
+    </div>
   );
 };
 
