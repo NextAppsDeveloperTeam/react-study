@@ -1,5 +1,5 @@
-import './TestCallback.scss';
-const TestCallback = () => {
+import './StudyCallback.scss';
+const StudyCallback = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value, setValue] = useState(0);
@@ -22,13 +22,13 @@ const TestCallback = () => {
   // Effect ------------------------------------------------------------------------------------------------------------
 
   useEffect(() => {
-    ll('[TestCallback]', 'handleDecClick changed');
+    ll('[StudyCallback]', 'handleDecClick changed');
   }, [handleDecClick]);
 
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
-    <div className='TestCallback'>
+    <div className='StudyCallback'>
       <h3>Callback</h3>
       <div>value: {value}</div>
       <br />
@@ -40,4 +40,4 @@ const TestCallback = () => {
   );
 };
 
-export default TestCallback;
+export default StudyCallback;

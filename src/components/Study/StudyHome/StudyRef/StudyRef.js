@@ -1,7 +1,7 @@
 import { useRef } from 'react';
-import TestRef_Input from './TestRef_Input';
+import StudyRef_Input from './StudyRef_Input';
 
-const TestRef = () => {
+const StudyRef = () => {
   // Ref ---------------------------------------------------------------------------------------------------------------
 
   const inputRef = useRef();
@@ -42,11 +42,11 @@ const TestRef = () => {
       </div>
       <br />
       <div>
-        <TestRef_Input ref={input2Ref} value={value} onChange={setValue} />
+        <StudyRef_Input ref={input2Ref} value={value} onChange={setValue} />
         <button onClick={handleReset2Click}>초기화2</button>
       </div>
     </div>
   );
 };
 
-export default TestRef;
+export default StudyRef;

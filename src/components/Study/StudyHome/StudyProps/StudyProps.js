@@ -1,6 +1,6 @@
-import TestProps_Buttons from './TestProps_Buttons';
+import StudyProps_Buttons from './StudyProps_Buttons';
 
-const TestProps = () => {
+const StudyProps = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value, setValue] = useState(0);
@@ -11,9 +11,9 @@ const TestProps = () => {
     <div>
       <h3>Props</h3>
       <div>value: {value}</div>
-      <TestProps_Buttons value={value} onChange={setValue} />
+      <StudyProps_Buttons value={value} onChange={setValue} />
     </div>
   );
 };
 
-export default TestProps;
+export default StudyProps;

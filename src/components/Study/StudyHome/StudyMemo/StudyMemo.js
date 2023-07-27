@@ -1,6 +1,6 @@
-import './TestMemo.scss';
+import './StudyMemo.scss';
 
-const TestMemo = () => {
+const StudyMemo = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value1, setValue1] = useState(0);
@@ -43,7 +43,7 @@ const TestMemo = () => {
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
-    <div className='TestMemo'>
+    <div className='StudyMemo'>
       <h3>Memo</h3>
       <div>
         value1: {value1}, value2: {value2}
@@ -59,4 +59,4 @@ const TestMemo = () => {
   );
 };
 
-export default TestMemo;
+export default StudyMemo;

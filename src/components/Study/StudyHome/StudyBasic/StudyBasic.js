@@ -1,4 +1,4 @@
-const TestBasic = () => {
+const StudyBasic = () => {
   return (
     <div>
       <h3>Basic</h3>
@@ -6,4 +6,4 @@ const TestBasic = () => {
   );
 };
 
-export default TestBasic;
+export default StudyBasic;

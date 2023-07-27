@@ -1,4 +1,4 @@
-const TestEffect = () => {
+const StudyEffect = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value, setValue] = useState(0);
@@ -31,4 +31,4 @@ const TestEffect = () => {
   );
 };
 
-export default TestEffect;
+export default StudyEffect;

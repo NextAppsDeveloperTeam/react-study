@@ -6,7 +6,7 @@ const propTypes = {
   onChange: PropTypes.func,
 };
 
-const TestRef_Input = React.forwardRef(({ value, onChange }, ref) => {
+const StudyRef_Input = React.forwardRef(({ value, onChange }, ref) => {
   // Ref ---------------------------------------------------------------------------------------------------------------
 
   const inputRef = useRef();
@@ -28,7 +28,7 @@ const TestRef_Input = React.forwardRef(({ value, onChange }, ref) => {
   return <input ref={inputRef} value={value} style={{ width: '100%' }} onChange={(e) => onChange(e.target.value)} />;
 });
 
-TestRef_Input.displayName = 'TestRef_Input';
-TestRef_Input.propTypes = propTypes;
+StudyRef_Input.displayName = 'StudyRef_Input';
+StudyRef_Input.propTypes = propTypes;
 
-export default TestRef_Input;
+export default StudyRef_Input;

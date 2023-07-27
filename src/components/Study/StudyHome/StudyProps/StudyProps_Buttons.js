@@ -1,4 +1,4 @@
-import './TestProps_Buttons.scss';
+import './StudyProps_Buttons.scss';
 import PropTypes from 'prop-types';
 
 const propTypes = {
@@ -6,7 +6,7 @@ const propTypes = {
   onChange: PropTypes.func,
 };
 
-const TestProps_Buttons = ({ value, onChange }) => {
+const StudyProps_Buttons = ({ value, onChange }) => {
   // Event Handler -----------------------------------------------------------------------------------------------------
 
   const handleDecClick = useCallback(() => {
@@ -28,8 +28,8 @@ const TestProps_Buttons = ({ value, onChange }) => {
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
-    <div className='TestProps_Button'>
-      <h5>TestProps_Button</h5>
+    <div className='StudyProps_Button'>
+      <h5>StudyProps_Button</h5>
       <div className='value'>value: {value}</div>
       <br />
       <div>
@@ -42,6 +42,6 @@ const TestProps_Buttons = ({ value, onChange }) => {
   );
 };
 
-TestProps_Buttons.propTypes = propTypes;
+StudyProps_Buttons.propTypes = propTypes;
 
-export default TestProps_Buttons;
+export default StudyProps_Buttons;

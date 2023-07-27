@@ -1,6 +1,6 @@
-import './TestState.scss';
+import './StudyState.scss';
 
-const TestState = () => {
+const StudyState = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value, setValue] = useState(0);
@@ -18,7 +18,7 @@ const TestState = () => {
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
-    <div className='TestState'>
+    <div className='StudyState'>
       <h3>State</h3>
       <div>value: {value}</div>
       <br />
@@ -33,4 +33,4 @@ const TestState = () => {
   );
 };
 
-export default TestState;
+export default StudyState;
