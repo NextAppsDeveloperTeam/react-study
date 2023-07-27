@@ -18,7 +18,7 @@ module.exports = {
   parserOptions: {
     requireConfigFile: false,
     ecmaFeatures: { jsx: true },
-    ecmaVersion: 8,
+    ecmaVersion: 2018,
     sourceType: 'module',
     babelOptions: {
       presets: ['@babel/preset-react'],
