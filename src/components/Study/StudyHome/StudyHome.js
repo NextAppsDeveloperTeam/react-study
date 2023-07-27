@@ -24,37 +24,37 @@ const StudyHome = () => {
       </div>
       <br />
       {studyTab === 'basic' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyBasic />
         </div>
       )}
       {studyTab === 'state' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyState />
         </div>
       )}
       {studyTab === 'callback' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyCallback />
         </div>
       )}
       {studyTab === 'props' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyProps />
         </div>
       )}
       {studyTab === 'effect' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyEffect />
         </div>
       )}
       {studyTab === 'memo' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyMemo />
         </div>
       )}
       {studyTab === 'ref' && (
-        <div className='test-block'>
+        <div className='study-block'>
           <StudyRef />
         </div>
       )}
