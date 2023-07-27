@@ -6,11 +6,15 @@ const StudyEffect = () => {
   // Effect ------------------------------------------------------------------------------------------------------------
 
   useEffect(() => {
+    ll('StudyEffect create');
+
     const interval = setInterval(() => {
       setValue((cur) => cur + 1);
     }, 300);
 
     return () => {
+      ll('StudyEffect destroy');
+
       clearInterval(interval);
     };
   }, []);
