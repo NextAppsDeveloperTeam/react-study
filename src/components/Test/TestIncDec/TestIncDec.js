@@ -7,24 +7,28 @@ const TestIncDec = () => {
 
   // Event Handler -----------------------------------------------------------------------------------------------------
 
-  const handleDecClick = useCallback(() => {
-    setValue((cur) => cur - 1);
-  }, []);
+  const handleDec2Click = () => {
+    setValue(value - 2);
+  };
 
-  const handleIncClick = useCallback(() => {
-    setValue((cur) => cur + 1);
-  }, []);
+  const handleInc2Click = () => {
+    setValue(value + 2);
+  };
 
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
     <div className='TestIncDec'>
       <h3>TestIncDec</h3>
+      <div>value: {value}</div>
+      <br />
       <div>
-        <button onClick={handleDecClick}>-</button>
-        <span className='value'>{value}</span>
-        <button onClick={handleIncClick}>+</button>
+        <button onClick={() => setValue(value - 1)}>-</button>
+        <button onClick={() => setValue(value + 1)}>+</button>
+        <button onClick={handleDec2Click}>- 2</button>
+        <button onClick={handleInc2Click}>+ 2</button>
       </div>
+      <br />
     </div>
   );
 };
