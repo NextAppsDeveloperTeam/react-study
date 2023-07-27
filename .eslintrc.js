@@ -43,17 +43,17 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   rules: {
+    'jsx-quotes': ['error', 'prefer-single'],
+    'no-unused-vars': 'warn',
+    'no-useless-constructor': 'warn',
+    'no-underscore-dangle': 'off',
+    'prefer-template': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
     'react/react-in-jsx-scope': 'off',
-    'no-unused-vars': ['warn'],
-    'no-useless-constructor': ['warn'],
-    'react/no-unused-state': ['warn'],
+    'react/no-unused-state': 'warn',
     'react/state-in-constructor': ['error', 'always'],
-    'react/no-deprecated': ['error'],
-    'no-underscore-dangle': ['error'],
-    'prefer-template': ['error'],
-    'jsx-quotes': ['error', 'prefer-single'],
+    'react/no-deprecated': 'error',
     'react/prop-types': [
       'error',
       { ignore: ['history', 'location', 'match', 'name', 'className', 'style', 'children'] },
@@ -63,21 +63,6 @@ module.exports = {
       {
         destructuring: 'any',
         ignoreReadBeforeAssign: false,
-      },
-    ],
-    'lines-between-class-members': [
-      'error',
-      'always',
-      {
-        exceptAfterSingleLine: true,
-      },
-    ],
-    'react/static-property-placement': [
-      'error',
-      'property assignment',
-      {
-        propTypes: 'static public field',
-        defaultProps: 'static public field',
       },
     ],
   },
