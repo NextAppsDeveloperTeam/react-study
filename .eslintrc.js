@@ -22,6 +22,13 @@ module.exports = {
     sourceType: 'module',
     babelOptions: {
       presets: ['@babel/preset-react'],
+      plugins: [
+        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-syntax-dynamic-import',
+        '@babel/plugin-proposal-optional-chaining',
+        '@babel/plugin-proposal-nullish-coalescing-operator',
+        '@babel/plugin-proposal-export-default-from',
+      ],
     },
   },
   plugins: ['react', 'react-hooks'],
