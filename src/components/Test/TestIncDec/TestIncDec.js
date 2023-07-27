@@ -1,7 +1,11 @@
 import './TestIncDec.scss';
 
 const TestIncDec = () => {
+  // State -------------------------------------------------------------------------------------------------------------
+
   const [value, setValue] = useState(0);
+
+  // Event Handler -----------------------------------------------------------------------------------------------------
 
   const handleDecClick = useCallback(() => {
     setValue((cur) => cur - 1);
@@ -10,6 +14,8 @@ const TestIncDec = () => {
   const handleIncClick = useCallback(() => {
     setValue((cur) => cur + 1);
   }, []);
+
+  // Render ------------------------------------------------------------------------------------------------------------
 
   return (
     <div className='TestIncDec'>

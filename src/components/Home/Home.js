@@ -1,5 +1,5 @@
 import './Home.scss';
-import { TestIncDec, TestIncDecProps, TestInput } from '../Test';
+import { TestIncDec, TestIncDecProps, TestInput, TestEffect, TestMemo } from '../Test';
 
 const Home = () => {
   return (
@@ -13,6 +13,12 @@ const Home = () => {
       </div>
       <div className='test-block'>
         <TestInput />
+      </div>
+      <div className='test-block'>
+        <TestEffect />
+      </div>
+      <div className='test-block'>
+        <TestMemo />
       </div>
     </div>
   );

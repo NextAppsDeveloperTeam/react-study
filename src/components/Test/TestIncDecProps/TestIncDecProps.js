@@ -1,7 +1,11 @@
 import TestIncDecProps_Buttons from './TestIncDecProps_Buttons';
 
 const TestIncDecProps = () => {
+  // State -------------------------------------------------------------------------------------------------------------
+
   const [value, setValue] = useState(0);
+
+  // Render ------------------------------------------------------------------------------------------------------------
 
   return (
     <div>

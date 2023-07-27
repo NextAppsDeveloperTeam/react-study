@@ -7,6 +7,8 @@ const propTypes = {
 };
 
 const TestIncDecProps_Buttons = ({ value, onChange }) => {
+  // Event Handler -----------------------------------------------------------------------------------------------------
+
   const handleDecClick = useCallback(() => {
     onChange(value - 1);
   }, [onChange, value]);
@@ -22,6 +24,8 @@ const TestIncDecProps_Buttons = ({ value, onChange }) => {
   const handleHalfClick = useCallback(() => {
     onChange(value / 2);
   }, [onChange, value]);
+
+  // Render ------------------------------------------------------------------------------------------------------------
 
   return (
     <div className='TestIncDecProps_Button'>
