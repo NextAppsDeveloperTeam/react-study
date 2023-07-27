@@ -9,7 +9,7 @@ const TodoHome = () => {
       <div className='todo-home-container'>
         <div>
           <TodoForm />
-          <p>완료되지 않은 목록</p>
+          <p>TODO 목록</p>
           <TodoList />
         </div>
         <div>

@@ -25,7 +25,7 @@ const TestEffect = () => {
 
   return (
     <div>
-      <h3>TestEffect</h3>
+      <h3>Effect</h3>
       <div>value: {value}</div>
     </div>
   );

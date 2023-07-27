@@ -29,7 +29,7 @@ const TestCallback = () => {
 
   return (
     <div className='TestCallback'>
-      <h3>TestCallback</h3>
+      <h3>Callback</h3>
       <div>value: {value}</div>
       <br />
       <div>

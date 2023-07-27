@@ -21,7 +21,7 @@ const TestMemo = () => {
   // Memo --------------------------------------------------------------------------------------------------------------
 
   const value2Text = useMemo(() => {
-    ll('[TestMemo]', 'value2Text change. value2:', value2);
+    ll('[Memo]', 'value2Text change. value2:', value2);
 
     return [2, 3, 4, 5].map((v) => (
       <div key={v}>
@@ -44,7 +44,7 @@ const TestMemo = () => {
 
   return (
     <div className='TestMemo'>
-      <h3>TestMemo</h3>
+      <h3>Memo</h3>
       <div>
         value1: {value1}, value2: {value2}
       </div>

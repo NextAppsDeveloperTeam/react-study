@@ -1,6 +1,6 @@
-import './TestIncDec.scss';
+import './TestState.scss';
 
-const TestIncDec = () => {
+const TestState = () => {
   // State -------------------------------------------------------------------------------------------------------------
 
   const [value, setValue] = useState(0);
@@ -18,8 +18,8 @@ const TestIncDec = () => {
   // Render ------------------------------------------------------------------------------------------------------------
 
   return (
-    <div className='TestIncDec'>
-      <h3>TestIncDec</h3>
+    <div className='TestState'>
+      <h3>State</h3>
       <div>value: {value}</div>
       <br />
       <div>
@@ -33,4 +33,4 @@ const TestIncDec = () => {
   );
 };
 
-export default TestIncDec;
+export default TestState;
