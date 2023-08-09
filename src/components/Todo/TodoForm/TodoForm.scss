@@ -1,22 +1,18 @@
 .TodoForm {
   border: 1px solid #afafaf;
-  padding-left: 10px;
-}
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
 
-.todoForm_input {
-  border: none;
-  height: 30px;
-  width: 280px;
-}
-.todoForm_input:focus {
-  outline: none;
-}
+  > div {
+    &:first-of-type {
+      flex: 1;
+      padding-right: 10px;
+    }
+  }
 
-.todoForm_btn {
-  float: right;
-  height: 32px;
-  width: 50px;
-  border: none;
-  background-color: #000000;
-  color: #ffffff;
+  input {
+    width: 100%;
+    border: 0;
+  }
 }

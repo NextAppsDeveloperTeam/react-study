@@ -6,7 +6,6 @@ const StudyCallback = () => {
 
   // Event Handler -----------------------------------------------------------------------------------------------------
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   // const handleDecClick = () => {
   //   setValue((cur) => cur - 1);
   // };
