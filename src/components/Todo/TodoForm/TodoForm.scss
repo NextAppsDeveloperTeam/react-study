@@ -1,4 +1,22 @@
 .TodoForm {
   border: 1px solid #afafaf;
-  padding: 10px;
+  padding-left: 10px;
+}
+
+.todoForm_input {
+  border: none;
+  height: 30px;
+  width: 280px;
+}
+.todoForm_input:focus {
+  outline: none;
+}
+
+.todoForm_btn {
+  float: right;
+  height: 32px;
+  width: 50px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
 }

@@ -1,2 +1,39 @@
 .TodoListItem {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.todoitem_comp,
+.todoitem_cancel,
+.todoitem_del {
+  height: 23px;
+  width: 40px;
+  margin: 2px;
+}
+.todoitem_con {
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  background: #000000;
+  color: #ffffff;
+}
+
+.todoitem_date {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.todoitem_con_checked {
+  font-style: italic;
+  text-decoration: line-through;
+  color: #afafaf;
+}
+
+.todoitem_date_checked {
+  display: none;
 }
